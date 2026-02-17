@@ -229,6 +229,22 @@ com.plandocente
         └── GlobalExceptionHandler.java
 ```
 
+## Base Package
+
+**Package raíz definido:** `com.plandocente`
+
+**Justificación:**
+- Nombre corto y estable
+- Independiente del branding comercial
+- Refleja el dominio del negocio (planificación docente)
+- Facilita refactorización futura sin cambios masivos
+
+Todos los paquetes del proyecto deben seguir esta estructura:
+- `com.plandocente.domain.*`
+- `com.plandocente.application.*`
+- `com.plandocente.infrastructure.*`
+- `com.plandocente.interfaces.*`
+
 ## Principios de Diseño
 
 1. **Dependency Inversion**: Dominio define contratos, infraestructura los implementa

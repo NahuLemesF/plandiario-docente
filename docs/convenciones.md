@@ -277,6 +277,16 @@ public class PlanificacionDiaria {
 - Lombok Plugin habilitado
 - SonarLint para análisis estático
 
+## Alcance del MVP
+
+**Fuera del MVP inicial:**
+- Autenticación y autorización (sin usuarios en esta fase)
+- OpenAPI/Swagger documentation
+- Auditoría avanzada (createdBy, updatedBy)
+- Soft deletes
+
+El MVP se enfoca en el CRUD básico de planificaciones, metas, actividades y áreas sin gestión de usuarios.
+
 ## Notas para Agentes IA
 
 - **Commits atómicos**: un cambio lógico por commit
@@ -285,4 +295,5 @@ public class PlanificacionDiaria {
 - Linkear PR con Issue usando "Closes #<numero>"
 - Tests obligatorios para nueva lógica de negocio
 - Revisar convenciones antes de generar código
+- **No asumir requisitos no documentados**: el MVP no incluye usuarios ni autenticación
 
