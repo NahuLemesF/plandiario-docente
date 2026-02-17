@@ -1,0 +1,4 @@
+# Domain Layer
+This layer contains the core business logic and domain models.
+It should not depend on any framework (Spring, JPA, etc.).
+

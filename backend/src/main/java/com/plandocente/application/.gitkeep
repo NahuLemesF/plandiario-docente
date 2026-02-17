@@ -1,0 +1,4 @@
+# Application Layer
+This layer contains use cases and application services.
+It depends only on the Domain layer.
+
