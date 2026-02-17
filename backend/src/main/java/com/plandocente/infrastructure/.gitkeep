@@ -1,0 +1,4 @@
+# Infrastructure Layer
+This layer contains implementations of repositories and external services.
+It implements interfaces defined in the Domain layer.
+
